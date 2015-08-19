@@ -1,0 +1,49 @@
+/**
+ * CSS File for ezMark jQuery Plugin
+ *
+ **/
+.ez-hide { opacity: 0; filter:alpha(opacity=0); }
+
+.ez-radio {
+	background: url('../images/sprite.png') 0px 5px no-repeat;
+	display:inline-block;
+	height:20px;
+	width:50px;
+	float:right;
+	z-index:4;
+	cursor:pointer;
+	margin:10px;
+}
+
+.ez-checkbox {
+	background: url('../images/sprite.png') 0px 0px no-repeat;
+	display:inline-block;
+	height:20px;
+	width:40px;
+	float:right;
+	z-index:4;
+}
+
+
+.ez-checked {
+	background-position:0px -16px;
+	display:inline-block;
+	height:20px;
+	width:50px;
+	float:right;
+	z-index:4;
+	padding-right:5px;
+} 
+
+
+.ez-selected { 
+	background-position:0 -18px;
+	display:inline-block;
+	height:25px;
+	width:50px;
+	float:right;
+	z-index:4;
+	cursor:pointer;
+}
+
+.ez-radio { zoom: 1; *display:inline; cursor:pointer; }

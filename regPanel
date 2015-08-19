@@ -1,0 +1,145 @@
+<!-- Panel -->
+<div id="toppanel">
+	<div id="panel">
+		<div class="content clearfix">
+			<div class="left">
+				<h1>Member Login</h1>
+					<label class="grey" for="log">Email:</label>
+					<input class="field" type="text" name="log" id="log" value="" size="23" />
+					<label class="grey" for="pwd">Password: </label>
+					<input class="field" type="password" name="pwd" id="pwd" size="23" />
+	            	<label><input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /> &nbsp;Remember me</label>
+        			<div class="clear"></div>
+					<input type="submit" name="submit" value="Login" class="bt_login" />
+					<a class="lost-pwd" href="#">Lost your password?</a>
+				</form>
+			</div>
+			<div class="left">
+				<!-- Login Form -->
+				<form class="clearfix" action="#" method="post">
+					<h1>Join PlateMe!</h1>
+					<label class="grey" for="user">First Name: 
+					<input class="field" type="text" name="log" id="log" value="" size="23" /></label>
+					<label class="grey" for="pass">Last Name: 
+					<input class="field" type="password" name="pwd" id="pwd" size="23" /></label>
+                    <label class="grey" for="pass2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEmail: 
+					<input class="field" type="password" name="pwd" id="pwd" size="23" /></label>
+	            	<label class="grey" for="fname">Password:
+                    <input class="field" type="text" name="fname" id="fname" size="23" /></label>
+					<label class="grey" for="lname">Re-Enter:
+                    <input class="field" type="text" name="lname" id="lname" size="23" /></label>
+                    <label class="grey" for="state">State:
+                    <select name="state" id="state">
+                        <option value='' selected='selected'>Select</option>
+                        <option value="AL">AL</option>
+                        <option value="AK">AK</option>
+                        <option value="AZ">AZ</option>
+                        <option value="AR">AR</option>
+                        <option value="CA">CA</option>
+                        <option value="CO">CO</option>
+                        <option value="CT">CT</option>
+                        <option value="DE">DE</option>
+                        <option value="DC">DC</option>
+                        <option value="FL">FL</option>
+                        <option value="GA">GA</option>
+                        <option value="HI">HI</option>
+                        <option value="ID">ID</option>
+                        <option value="IL">IL</option>
+                        <option value="IN">IN</option>
+                        <option value="IA">IA</option>
+                        <option value="KS">KS</option>
+                        <option value="KY">KY</option>
+                        <option value="LA">LA</option>
+                        <option value="ME">ME</option>
+                        <option value="MD">MD</option>
+                        <option value="MA">MA</option>
+                        <option value="MI">MI</option>
+                        <option value="MN">MN</option>
+                        <option value="MS">MS</option>
+                        <option value="MO">MO</option>
+                        <option value="MT">MT</option>
+                        <option value="NE">NE</option>
+                        <option value="NV">NV</option>
+                        <option value="NH">NH</option>
+                        <option value="NJ">NJ</option>
+                        <option value="NM">NM</option>
+                        <option value="NY">NY</option>
+                        <option value="NC">NC</option>
+                        <option value="ND">ND</option>
+                        <option value="OH">OH</option>
+                        <option value="OK">OK</option>
+                        <option value="OR">OR</option>
+                        <option value="PA">PA</option>
+                        <option value="RI">RI</option>
+                        <option value="SC">SC</option>
+                        <option value="SD">SD</option>
+                        <option value="TN">TN</option>
+                        <option value="TX">TX</option>
+                        <option value="UT">UT</option>
+                        <option value="VT">VT</option>
+                        <option value="VA">VA</option>
+                        <option value="WA">WA</option>
+                        <option value="WV">WV</option>
+                        <option value="WI">WI</option>
+                        <option value="WY">WY</option>	
+                    </select>
+                    <label class="grey" for=">" align="right">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp>>>>>>>>>>></label>
+                </form>
+			</div>
+			<div class="left right">			
+				<!-- Register Form -->
+				<form action="#" method="post">
+					<h1></h1>				
+					<label class="grey" for="licenseplate">Plate #:</label>
+					<input class="field" type="text" name="plate" id="plate" value="" size="23" />
+					<label class="grey" for="make">Make/Model:</label>
+					<input class="field" type="text" name="car" id="car" size="15" />
+					<label class="grey" for="color">Color:</label>
+					<input class="field" type="text" name="color" id="color" size="15" />
+					<label class="grey" for="year">Year:
+                    <select name="year" id="year">
+            			<option value='' selected='selected'>Select</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                     </select></label>
+                    <input type="submit" name="submit" value="Register" class="bt_register" />
+                </form>
+			</div>
+		    <div class="logo">
+              <img src="images/pmlogo1.jpg" height="80" width="200">
+            </div>
+        </div>
+   <!-- /login -->
+</div>	
+
+	<!-- The tab on top -->	
+	<div class="tab">
+		<ul class="login">
+			<li class="left">&nbsp;</li>
+			<li>Hello Guest!</li>
+			<li class="sep">|</li>
+			<li id="toggle">
+				<a id="open" class="open" href="#">Log In | Register</a>
+				<a id="close" style="display: none;" class="close" href="#">Close Panel</a>			
+			</li>
+			<li class="right">&nbsp;</li>
+		</ul> 
+	</div> <!-- / top -->
+	
+</div> <!--panel -->

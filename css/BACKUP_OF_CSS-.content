@@ -1,0 +1,6 @@
+.content {
+	width:100%;
+	float:left;
+	height:100%;
+	border:1px dashed red;
+}

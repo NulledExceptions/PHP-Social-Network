@@ -1,0 +1,80 @@
+/**
+ * CSS File for ezMark jQuery Plugin
+ *
+ **/
+.ez-hide { opacity: 0; filter:alpha(opacity=0); }
+.ez-checkbox {
+	background: transparent url('../images/unchecked.png') 0 1px no-repeat;
+	display:inline-block;
+	height:20px;
+	width:50px;
+	float:right;
+	margin-left:40px;
+}
+
+.ez-radio {
+	background: transparent url('../images/unchecked.png') 0 1px no-repeat;
+	display:inline-block;
+	height:20px;
+	width:50px;
+	float:right;
+	margin-left:40px;
+}
+
+.ez-radio1 {
+	background: transparent url('../images/unchecked.png') 0 1px no-repeat;
+	display:inline-block;
+	height:20px;
+	width:50px;
+	float:right;
+	margin-left:40px;
+}
+
+.ez-radio2 {
+	background: transparent url('../images/unchecked.png') 0 1px no-repeat;
+	display:inline-block;
+	height:20px;
+	width:50px;
+	float:right;
+	margin-left:40px;
+}
+
+.ez-checked { 
+	background: transparent url('../images/checked.png') 0 1px no-repeat; 
+	display:inline-block;
+	height:25px;
+	width:50px;
+	float:right;
+	
+}
+.ez-selected { 
+	background: transparent url('../images/checked.png') 0 1px no-repeat; 
+	display:inline-block;
+	height:25px;
+	width:50px;
+	float:right;
+}
+
+.ez-selected1 { 
+	background: transparent url('../images/checked.png') 0 1px no-repeat; 
+	display:inline-block;
+	height:25px;
+	width:50px;
+	float:right;
+}
+
+.ez-selected2 { 
+	background: transparent url('../images/checked.png') 0 1px no-repeat; 
+	display:inline-block;
+	height:25px;
+	width:50px;
+	float:right;
+}
+
+.ez-checkbox-green {
+	background: transparent url('../images/checkbox-green.png') 0 1px no-repeat;
+	display:inline-block;
+	*display: inline;
+}
+.ez-checked-green { background-position: 0 -18px; }
+.ez-checkbox, .ez-radio { zoom: 1; *display:inline; _height:30px; }
